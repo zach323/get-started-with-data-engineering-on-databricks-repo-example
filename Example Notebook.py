@@ -13,3 +13,31 @@ display(sdf)
 
 # diff for commit
 
+
+# COMMAND ----------
+
+print("Welcome to Databricks for Data Engineering")
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select date_format(current_date(), "d MMM yyyy");
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC # heading 1
+# MAGIC ## heading 2
+# MAGIC ### heading 3
+# MAGIC
+# MAGIC * Item 1
+# MAGIC 1. Item 2
+# MAGIC 1. Item 3
+# MAGIC 1. Item 25
+# MAGIC
+# MAGIC [Google](www.google.com)
+# MAGIC
+# MAGIC **BOLD TEXT**
+# MAGIC *ITALIC*
+# MAGIC
+# MAGIC
